@@ -8,9 +8,13 @@ import { RiLinkedinFill } from 'react-icons/ri';
 import { BsLinkedin } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import emailjs from "emailjs-com"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Contact = () => {
+ 
   useEffect(() => {
     Aos.init({ duration: 700, once: true, offset: 0, easing: 'ease-in-sine' });
 }, []);
@@ -23,11 +27,22 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+     
+      toast('Thanks for messaging!!', {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
       e.target.reset();
   }
-  const contact = useRef(null);
+ 
   return (
-    <div ref={contact} className='container ' data-aos="slide-up" id='contact' >
+    <div  className='container ' data-aos="slide-up" id='contact' >
+    <ToastContainer />
       <div className="about-header"> <h1 className='animate-charcter'> Contact me</h1></div> 
       <br></br>
       <div className='contact-main'>
