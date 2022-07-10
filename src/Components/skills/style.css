@@ -1,0 +1,22 @@
+.skill-box{
+ justify-content: center;
+ text-align: center;
+}
+.skill-icon{
+    box-shadow: grey 0px 0px 5px 5px ;
+    margin: 1%;
+    width: 80px;
+}
+@media (max-width:600px){
+    .skill-icon{
+        /* box-shadow: grey 0px 0px 5px 5px ; */
+        margin: 2%;
+        width: 40px;
+    }
+}
+.skill-icon:hover{
+    /* zoom: 1.1; */
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
