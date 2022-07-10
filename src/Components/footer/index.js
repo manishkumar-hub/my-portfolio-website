@@ -4,7 +4,7 @@ import './style.css'
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className='copwrt' >No &#169; Copywright Issues </div>
+        <div className='copwrt' >No &#169; Copyright Issues </div>
         <div className='thanks'>
         Thanks for Visiting!
         </div>
