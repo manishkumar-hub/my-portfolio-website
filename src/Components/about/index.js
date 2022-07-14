@@ -20,7 +20,7 @@ const About = () => {
                 Want to know more . Have a look at my resume
                   </p>
                 <div className="get-resume">
-                <a target="_blank"  href="https://drive.google.com/file/d/1YBPOTn9lNGz_obqNjv-53HVRJUz1Ij_a/view">
+                <a target="_blank"  href="https://drive.google.com/file/d/15m_ul4alI-wuKdt9keGyfPuzDwhXfzsd/view?usp=sharing">
                 <div className="box">Resume</div>
                 </a>
                 </div>

@@ -93,15 +93,15 @@ const Contact = () => {
             <form onSubmit={sendEmail}>
             <div class="side">
             <p>
-            <textarea name='message' placeholder="Your message"></textarea>
+            <textarea name='message' required placeholder="Your message"></textarea>
             </p>
             </div>
             <div class="side">
             <p>
-            <input type="text" name='name' placeholder="Your name" />
+            <input type="text" required name='name' placeholder="Your name" />
             </p>
             <p>
-            <input type="email" name='email' placeholder="Your email" />
+            <input type="email" required name='email' placeholder="Your email" />
             </p>
             <p>
             <button id="sendLetter" type='submit' >Send</button>
