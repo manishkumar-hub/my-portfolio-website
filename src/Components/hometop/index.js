@@ -18,7 +18,7 @@ const Home = () => {
                 <h1>I'm a  
                 <TypeAnimation
                 cursor={true}
-                sequence={[' Passionate Coder.', 1000,' Full Stack Developer.', 1000,' Competitive Programmer.', 1000]}
+                sequence={[' Technovert', 1000,' Passionate Coder.', 1000,' Full Stack Developer.', 1000,' Competitive Programmer.', 1000]}
                 wrapper="span" repeat={Infinity}
                 />
                 </h1>

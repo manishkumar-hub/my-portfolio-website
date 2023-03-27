@@ -17,6 +17,7 @@ import mysql from '../../assets/img/mysql.png'
 import dsa from '../../assets/img/dsa.png'
 import oops from '../../assets/img/oops.jpg'
 import dbms from '../../assets/img/dbms.jpg'
+import typescript from '../../assets/img/typescript.png'
 import networking from '../../assets/img/networking.png'
 
 const Skills = () => {
@@ -44,6 +45,7 @@ const Skills = () => {
     <img src={HTMLlang} className="skill-icon" alt="C" /> 
     <img src={CSSlang} className="skill-icon" alt="C" /> 
     <img src={JSlang} className="skill-icon" alt="C" /> 
+    <img src={typescript} className="skill-icon" alt="Typescript" /> 
     <img src={ReactLang} className="skill-icon" alt="C" /> 
     <img src={nodejs} className="skill-icon" alt="C" /> 
     <img src={php} className="skill-icon" alt="C" /> 
