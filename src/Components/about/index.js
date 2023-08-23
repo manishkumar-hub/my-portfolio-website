@@ -16,11 +16,11 @@ const About = () => {
 
             <div className="about-header"> <h1 className='animate-charcter'> About me</h1></div>
             <div className="about-text-div">
-                <p className='about-text'>Hii , I am  Manish , currently pursuing my B-tech in Computer science and Engineering from National Institute of Technology Sikkim .I am an enthusiastic full-stack MERN & PHP web developer who enjoys experimenting with new programming concepts & technologies.I found it interesting to dive my head in solving DS and algorithmic puzzles . Apart from it , i am also Technical member of Web Devlopment Cell ,NIT Sikkim . <br />
-                    Want to know more . Have a look at my resume
+                <p className='about-text'>Hii, I am  Manish, currently pursuing my B-tech in Computer science and Engineering from National Institute of Technology Sikkim. I am an enthusiastic software and backend developer who enjoys experimenting with new programming concepts & technologies. I found it interesting to dive my head in solving DS and algorithmic puzzles. Apart from it, i am also Technical lead of Web Devlopment Cell, NIT Sikkim and Secretary of DevCans- the coding club of NIT Sikkim. <br />
+                Want to know more . Have a look at my resume
                 </p>
                 <div className="get-resume">
-                    <a target="_blank" href="https://drive.google.com/file/d/1N48hikAukAkp9afb26XQvlKnJg9r5Z92/view?usp=sharing">
+                    <a target="_blank" href="https://drive.google.com/file/d/1R3htXU8mGnIrNg9-sJEMWsY0N8_p-Gtl/view?usp=drive_link">
                         <div className="box">Resume</div>
                     </a>
                 </div>
@@ -31,13 +31,22 @@ const About = () => {
             <div className="timeline">
                 <ul className="timeline">
                     <li>
+                        <div className="direction-r">
+                            <div className="flag-wrapper">
+                                <span className="flag">Software Developer Intern @ <a href="https://www.infineon.com/">Infineon Technologies</a>  </span>
+                                <span className="time-wrapper"><span className="time">July,2023-Current</span></span>
+                            </div>
+                            <div className="desc"><span className='event-desc '>Working on building the automation tools for verification of System on Chip(SoC) designs </span> </div>
+                        </div>
+                    </li>
+                    <li>
                         <div className="direction-l">
                             <div className="flag-wrapper">
                                 <span className="flag">Software Developer Intern @ <a href="https://identifyyou.in/">IdentifyYou technologies</a>  </span>
-                                <span className="time-wrapper"><span className="time">Dec,2022-Current</span></span>
+                                <span className="time-wrapper"><span className="time">Dec,2022- Jun 2023</span></span>
                             </div>
-                            <div className="desc"><span className='event-desc '> Working on building microservice for ERP system Typescript and
-                            Node js </span> </div>
+                            <div className="desc"><span className='event-desc '>Worked on building microservices for SaaS ERP product using Typescript, Sequelize & Node js and plugins for data
+                            analysis of MS365 products using Microsoft Graph APIs</span> </div>
                         </div>
                     </li>
                     <li>

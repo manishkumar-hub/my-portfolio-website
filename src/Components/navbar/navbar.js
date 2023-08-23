@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
       <div className="social-media">
         <ul className=''>
-        <a target="_blank" href="https://drive.google.com/file/d/1N48hikAukAkp9afb26XQvlKnJg9r5Z92/view?usp=sharing">
+        <a target="_blank" href="https://drive.google.com/file/d/1R3htXU8mGnIrNg9-sJEMWsY0N8_p-Gtl/view?usp=drive_link">
         <button type="button" class="btn btn-light"> <b className='res-btn'>Get Resume</b></button>
         </a>
         </ul>
